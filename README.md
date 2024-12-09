@@ -15,3 +15,4 @@ We include the notebook for running the hierarchicial latent variable models in 
 
 ## Causal Latent Models
 We include the code for running the causal latent models in the directory `causal_latent_analysis`.
+For training the generative causal explainer, run neural_data_analysis.py. To evaluate the classification accuracies, run reconstruct_classification.py. To analyze the effect of modifying the causal and non-causal latent variables, run perturb_latents.py. These files were used for generating results (Fig.3 and Fig.4) in Section 4.3.2. 
